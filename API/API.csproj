@@ -15,6 +15,7 @@
     <Folder Include="Infrastructure\Config\" />
     <Folder Include="Infrastructure\Data\" />
     <Folder Include="Infrastructure\Data\SeedData\" />
+    <Folder Include="RequestHelpers\" />
   </ItemGroup>
 
   <ItemGroup>
