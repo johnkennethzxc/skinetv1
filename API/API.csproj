@@ -10,6 +10,7 @@
     <Folder Include="Core\" />
     <Folder Include="Core\Entities\" />
     <Folder Include="Core\Interfaces\" />
+    <Folder Include="Core\Specifications\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Infrastructure\Config\" />
     <Folder Include="Infrastructure\Data\" />
