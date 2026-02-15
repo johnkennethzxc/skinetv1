@@ -8,9 +8,12 @@
 
   <ItemGroup>
     <Folder Include="Core\" />
+    <Folder Include="Core\Entities\" />
+    <Folder Include="Core\Interfaces\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Infrastructure\Config\" />
     <Folder Include="Infrastructure\Data\" />
+    <Folder Include="Infrastructure\Data\SeedData\" />
   </ItemGroup>
 
   <ItemGroup>
