@@ -11,10 +11,13 @@
     <Folder Include="Core\Entities\" />
     <Folder Include="Core\Interfaces\" />
     <Folder Include="Core\Specifications\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Errors\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Infrastructure\Config\" />
     <Folder Include="Infrastructure\Data\" />
     <Folder Include="Infrastructure\Data\SeedData\" />
+    <Folder Include="Middleware\" />
     <Folder Include="RequestHelpers\" />
   </ItemGroup>
 
