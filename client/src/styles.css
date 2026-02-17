@@ -9,3 +9,7 @@
 .text-primary {
     @apply text-blue-700
 }
+
+/* .mdc-notched-outlined__notch {
+    border-right-style: none !important
+} */
