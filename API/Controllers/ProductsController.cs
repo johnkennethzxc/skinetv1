@@ -14,7 +14,7 @@ public class ProductsController(IGenericRepository<Product> repo) : BaseApiContr
     {
         var spec = new ProductFilterSpecification(specParams);
         
-        return Ok(await CreatePagedResult(repo, spec, specParams.PageIndex, specParams.PageSize));
+        return await CreatePagedResult(repo, spec, specParams.PageIndex, specParams.PageSize);
         //return Ok(await repo.ListAllAsync());
     }
 
