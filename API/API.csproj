@@ -17,6 +17,7 @@
     <Folder Include="Infrastructure\Config\" />
     <Folder Include="Infrastructure\Data\" />
     <Folder Include="Infrastructure\Data\SeedData\" />
+    <Folder Include="Infrastructure\Services\" />
     <Folder Include="Middleware\" />
     <Folder Include="RequestHelpers\" />
   </ItemGroup>
@@ -24,5 +25,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.11.0" />
   </ItemGroup>
 </Project>
